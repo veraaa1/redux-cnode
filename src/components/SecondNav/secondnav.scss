@@ -1,0 +1,25 @@
+nav{
+    width: 100%;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0 ;
+    >ul{
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding:5px 0 5px 10px; 
+        margin-bottom: 0;
+        >li{
+            a{
+                text-decoration: none;
+                color: #80bd01;
+                font-size: 14px;
+                padding: 0 5px;
+                border-radius: 3px;
+            }
+            a.active{
+                background-color: #80bd01;
+                color:#fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.create-topic{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 3px 3px 0 0;
+    margin-top: 10px;
+    padding: 10px;
+    >a{
+        display: block;
+        width: 80px;
+        color: #fff;
+        background-color: #80bd01;
+        border-radius: 3px;
+        border: 0;
+        padding: 10px;
+    }
+}

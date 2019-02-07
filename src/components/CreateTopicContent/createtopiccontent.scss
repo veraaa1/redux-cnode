@@ -1,0 +1,54 @@
+
+.demo-wrapper{
+    background: #fff;
+    
+}
+body .new-topic .demo-editor{
+    height: 402px;
+}
+.title-to{
+    width: 100%;
+    background-color: #f6f6f6;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border-radius: 3px 3px 0 0 ;
+    >a{
+        color: #80bd01;
+        text-decoration: none;
+    }
+}
+.choose-tab{
+    width: 100%;
+    background-color: #fff;
+    
+    >span{
+        padding: 10px 20px 10px 10px;
+    }
+    >#tab{
+        width: 220px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        outline: none;
+        line-height: 30px;
+        height: 30px;
+        background-color: #fff;
+
+    }
+}
+.title-con{
+    width: 100%;
+    background-color: #fff;
+    #title-input{
+        width: 98%;
+        margin: 10px;
+        box-shadow: 0 0 2px rgba(60,60,60,.5);
+        height: 30px;
+        line-height: 30px;
+        outline: none;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        text-indent: 10px;
+    }
+}
+

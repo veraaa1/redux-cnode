@@ -1,0 +1,10 @@
+.layout{
+    width: 100%;
+    margin-top: 15px;
+ } 
+  .layout-inner{
+     width: 90%;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 3fr 1fr;
+ }

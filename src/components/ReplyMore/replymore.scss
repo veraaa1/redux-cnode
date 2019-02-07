@@ -1,0 +1,79 @@
+.user-title{
+    width: 100%;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+    padding: 10px;
+    >a{
+        color: #80bd01;
+        padding: 5px;
+    }
+    
+}
+.lists{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0;
+    >li:hover{
+        background-color: #f0f0f0;
+    }
+    >li{
+        
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 0 10px 10px;
+        display: flex;
+        justify-content: flex-start;
+        border-top: 1px solid #f0f0f0;
+        >.avatar{
+            width: 30px;
+            height: 30px;
+            >img{
+                display: block;
+                width: 100%;
+                border-radius: 5px;
+            }
+            
+            }
+            >.tab{
+                padding: 0 5px;
+                background-color: #e5e5e5;
+                color: #999;
+                line-height: 20px;
+                border-radius: 3px;
+                height: 20px;
+                margin-left: 10px;
+            }
+            >.active-tab{
+                background-color: #80bd01;
+                color: #fff;
+            }
+           >.number{
+                color: #b4b4b4;
+                margin-left: 10px;
+                width: 60px;
+                >span{
+                    color: #9e78c0;
+                }
+        }
+        >.title{
+            width: 626px;
+            white-space: nowrap;
+            overflow: hidden;
+            margin-left: 10px;
+            color: #000;
+            text-decoration: none;
+            text-overflow: ellipsis;
+        }
+        >.title:hover{
+            text-decoration: underline;
+        }
+        >.time{
+            width: 100px;
+            text-align: right;
+        }
+        
+    }
+}
+.ant-pagination {
+    background-color: #fff;
+}

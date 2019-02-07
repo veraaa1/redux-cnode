@@ -1,0 +1,17 @@
+.banner{
+    width: 90%;
+    margin: 0 auto;
+    margin-top:10px;
+    background-color: #fff;
+    border-radius: 3px;
+    >a{
+        display: block;
+        width: 96%;
+        margin: 0 auto;
+        padding: 5px;
+        >img{
+            width: 100%;
+            display: block;
+        }
+    }
+}
