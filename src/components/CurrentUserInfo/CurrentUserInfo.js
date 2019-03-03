@@ -54,7 +54,7 @@ class CurrentUserInfo extends Component {
                     <div>
                         <div className="user-info">
                         <Link to={`/user/${author.loginname}`}>
-                        <img src={author.avatar_url}/>  
+                        <img src={author.avatar_url} alt=""/>  
                         </Link>
                         <span>{author.loginname}</span>
                         <p className="score">积分：{author.score}</p>
@@ -65,7 +65,7 @@ class CurrentUserInfo extends Component {
                     <p className="titles">作者信息</p>
                     <div>
                      <div className="user-info">
-                       <Link to={`/user/${topic.author.loginname}`}><img src={topic.author.avatar_url}/></Link>
+                       <Link to={`/user/${topic.author.loginname}`}><img src={topic.author.avatar_url}    alt=""/></Link>
                        <span>{topic.author.loginname}</span> 
                     </div>
                     </div>

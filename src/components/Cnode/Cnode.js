@@ -4,16 +4,12 @@ import Layout from '../Layout/Layout'
 import CurrentUserInfo from '../CurrentUserInfo/CurrentUserInfo'
 import { Route,Switch } from 'react-router-dom';
 import TopicDetail from '../TopicDetail/TopicDetail'
-import { connect } from 'react-redux'
-import { getLists } from '../../actions/index';
 import Home from '../Home/Home'
 import UserInfo from '../UserInfo/UserInfo';
-import CreateTopic from '../CreateTopic/CreateTopic';
 import CreateTopicContent from '../CreateTopicContent/CreateTopicContent';
 import Msg from '../Msg/Msg';
 import Activity from '../Activity/Activity';
 import ReplyMore from '../ReplyMore/ReplyMore';
-import TopicsMore from '../TopicsMore/TopicsMore';
 export default class Cnode extends Component {
    
     render() {

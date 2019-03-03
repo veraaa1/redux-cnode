@@ -17,7 +17,7 @@ class Header extends Component {
                 </div>
                 <ul>
                     <li><NavLink to="/">首页</NavLink></li>
-                    <li><NavLink to="/my/messages">未读消息<span>{sessionStorage.token? getNotReadNum():''}</span></NavLink></li>
+                    <li><NavLink to="/my/messages">未读消息<span>{sessionStorage.token? getNotReadNum(sessionStorage.token):''}</span></NavLink></li>
                     <li><NavLink to="/getstart">新手入门</NavLink></li>
                     <li><NavLink to="/api">API</NavLink></li>
                     <li><NavLink to="/about">关于</NavLink></li>

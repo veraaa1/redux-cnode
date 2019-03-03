@@ -3,6 +3,9 @@
     background: #fff;
     
 }
+.new-topic{
+    position: relative;
+}
 body .new-topic .demo-editor{
     height: 402px;
 }
@@ -50,5 +53,14 @@ body .new-topic .demo-editor{
         border-radius: 3px;
         text-indent: 10px;
     }
+}
+.new-topic>a{
+    background-color: #80bd01;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
 

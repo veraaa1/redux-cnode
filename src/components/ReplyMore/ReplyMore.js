@@ -11,7 +11,7 @@ class ReplyMore extends Component {
         topicsCurrent:1
     }
     componentDidMount() {
-        const{user,tab}=this.props.match.params
+        const{user}=this.props.match.params
         const{getAuthor}=this.props
         if(user)
         getAuthor(user)
