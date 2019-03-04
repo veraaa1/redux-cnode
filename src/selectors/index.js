@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const getNotReadNum = (token)=>{
     console.log(sessionStorage.token)
-    axios.get(`https://cnodejs.org/api/v1/message/count`,{accesstoken:token}).then(res=>{
+    axios.get(`https://cnodejs.org/api/v1/message/count?accesstoken=${token}`).then(res=>{
         return res.data.data
     })
 }
